@@ -21,6 +21,7 @@ def f(s):
     return r
 
 c) Answer
+
 import unittest
 
 class TestCountCharacters(unittest.TestCase):
