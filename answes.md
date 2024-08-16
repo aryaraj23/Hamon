@@ -1,6 +1,5 @@
-Answers
-1. 
-a) What the Code Does:
+Answers 
+1. a) What the Code Does:
 This function tries to count how many times each character appears in a string. Here's how it works:
 
 Creates a dictionary: It starts with an empty dictionary called r. This dictionary will store each character from the string and how many times it appears.
@@ -41,8 +40,7 @@ class TestCountCharacters(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-2. 
-We have built our own GitLab runners using Terraform. While making changes to the existing setup, I encountered a state lock issue in Terraform, which prevented me from making updates. 
+2. We have built our own GitLab runners using Terraform. While making changes to the existing setup, I encountered a state lock issue in Terraform, which prevented me from making updates. 
 To resolve it, I learned how the existing Terraform code was structured, understood the state management, and then safely unlocked the state to apply the necessary changes. 
 This experience highlighted the importance of understanding the existing codebase before making any modifications.
 
