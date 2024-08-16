@@ -20,7 +20,7 @@ def f(s):
             r[i] = 1  # Start count at 1 instead of 0
     return r
 
-c) 
+c) Answer
 import unittest
 
 class TestCountCharacters(unittest.TestCase):
